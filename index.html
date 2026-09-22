@@ -38,23 +38,6 @@
 
   <main class="app__main">
 
-    <!-- 预览区 -->
-    <section class="stage">
-      <div class="phone-wrap" id="phoneWrap">
-        <canvas id="preview" class="preview-canvas" aria-label="壁纸预览"></canvas>
-      </div>
-      <div class="stage__actions">
-        <button class="btn btn--primary" id="downloadBtn">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-          下载当前尺寸
-        </button>
-      </div>
-      <div class="stage__actions stage__actions--split">
-        <button class="btn btn--ghost" id="allBtn" title="一键导出全部 6 种尺寸，打包为 zip">导出全部尺寸</button>
-        <button class="btn btn--ghost" id="shuffleBtn">随机灵感</button>
-      </div>
-    </section>
-
     <!-- 控制面板 -->
     <aside class="panel">
 
@@ -164,6 +147,23 @@ MORE</textarea>
       </section>
 
     </aside>
+
+    <!-- 预览区（置底） -->
+    <section class="stage">
+      <div class="phone-wrap" id="phoneWrap">
+        <canvas id="preview" class="preview-canvas" aria-label="壁纸预览"></canvas>
+      </div>
+      <div class="stage__actions">
+        <button class="btn btn--primary" id="downloadBtn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+          下载当前尺寸
+        </button>
+      </div>
+      <div class="stage__actions stage__actions--split">
+        <button class="btn btn--ghost" id="allBtn" title="一键导出全部 6 种尺寸，打包为 zip">导出全部尺寸</button>
+        <button class="btn btn--ghost" id="shuffleBtn">随机灵感</button>
+      </div>
+    </section>
   </main>
 
   <footer class="app__footer">
