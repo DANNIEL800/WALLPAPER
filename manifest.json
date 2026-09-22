@@ -1,0 +1,17 @@
+{
+  "name": "壁纸实验室 · 纯色壁纸生成器",
+  "short_name": "壁纸实验室",
+  "description": "生成纯色背景与纯色文字的手机壁纸，支持自定义文字、图案与配色模板。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101014",
+  "theme_color": "#101014",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
